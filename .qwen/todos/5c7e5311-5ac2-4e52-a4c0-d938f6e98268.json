@@ -1,0 +1,25 @@
+{
+  "todos": [
+    {
+      "content": "Add Module 4: Vision-Language-Action (VLA) to the book",
+      "id": "15",
+      "status": "completed"
+    },
+    {
+      "content": "Write about voice-to-action using OpenAI Whisper for voice commands",
+      "id": "16",
+      "status": "completed"
+    },
+    {
+      "content": "Cover cognitive planning using LLMs to translate natural language into ROS 2 actions",
+      "id": "17",
+      "status": "completed"
+    },
+    {
+      "content": "Develop the capstone project: Autonomous Humanoid",
+      "id": "18",
+      "status": "completed"
+    }
+  ],
+  "sessionId": "5c7e5311-5ac2-4e52-a4c0-d938f6e98268"
+}

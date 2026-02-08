@@ -1,0 +1,65 @@
+[
+  {
+    "sessionId": "c85afb93-5dc4-4bb5-be6e-0f2771b8e976",
+    "messageId": 0,
+    "type": "user",
+    "message": "hello",
+    "timestamp": "2025-12-17T13:40:01.901Z"
+  },
+  {
+    "sessionId": "c85afb93-5dc4-4bb5-be6e-0f2771b8e976",
+    "messageId": 1,
+    "type": "user",
+    "message": "clear",
+    "timestamp": "2025-12-17T13:40:20.909Z"
+  },
+  {
+    "sessionId": "c85afb93-5dc4-4bb5-be6e-0f2771b8e976",
+    "messageId": 2,
+    "type": "user",
+    "message": "/sp.constitution Create a Constitution document for a book about \"Physical AI and Humanoid Robotics\" with these requirements: -Target audience: beginners to intermediate -Tech stack : Docusaurus for Documentation - Focus on hands-0n learning .Provide the constitution with: Vision, Core Principles, Success Criteria, Constraints, Stakeholders, and Brand Voice.",
+    "timestamp": "2025-12-17T13:50:32.526Z"
+  },
+  {
+    "sessionId": "c85afb93-5dc4-4bb5-be6e-0f2771b8e976",
+    "messageId": 3,
+    "type": "user",
+    "message": "/sp.specify Based on the constitution , create a detailed Specification for the \"Physical AI and Humanoid Robotics\" book which include book structure with chapters and 3 lessons each (titles and description) 2.Content guidelines and lesson format 3. Docusaurus-specific requirements for organization",
+    "timestamp": "2025-12-17T14:07:39.594Z"
+  },
+  {
+    "sessionId": "c85afb93-5dc4-4bb5-be6e-0f2771b8e976",
+    "messageId": 4,
+    "type": "user",
+    "message": "/sp.plan Create a Developmant Plan for building this book in Docusaurus. Include: 1. Docusaurus setup steps and configuration. 2. Content develpoment phases 3. File structure for chapters and lessons",
+    "timestamp": "2025-12-17T14:25:46.051Z"
+  },
+  {
+    "sessionId": "c85afb93-5dc4-4bb5-be6e-0f2771b8e976",
+    "messageId": 5,
+    "type": "user",
+    "message": "/sp.tasks Break down the plan into specific executable tasks as a chechlist. Include: 1. Docusaurus setup tasks 2. Chapter  development tasks (for 1 chapter with 3 lessons)",
+    "timestamp": "2025-12-17T14:50:58.417Z"
+  },
+  {
+    "sessionId": "c85afb93-5dc4-4bb5-be6e-0f2771b8e976",
+    "messageId": 6,
+    "type": "user",
+    "message": "/sp.implement implement the 001-book-structure-spec/ you have already this folder and update this",
+    "timestamp": "2025-12-17T15:19:06.926Z"
+  },
+  {
+    "sessionId": "c85afb93-5dc4-4bb5-be6e-0f2771b8e976",
+    "messageId": 7,
+    "type": "user",
+    "message": "yes",
+    "timestamp": "2025-12-17T16:05:56.442Z"
+  },
+  {
+    "sessionId": "c85afb93-5dc4-4bb5-be6e-0f2771b8e976",
+    "messageId": 8,
+    "type": "user",
+    "message": "[INFO] Starting the development server...\n[WARNING] The `siteConfig.onBrokenMarkdownLinks` config option is deprecated and will be removed in Docusaurus v4.\nPlease migrate and move this option to `siteConfig.markdown.hooks.onBrokenMarkdownLinks` instead.\n[ERROR] Loading of version failed for version current\n\n[ERROR] Error: Invalid sidebar file at \"sidebars.js\".\nThese sidebar document ids do not exist:\n- chapter-10-case-studies-and-projects/lesson-1-replicating-existing-humanoid-robots\n- chapter-10-case-studies-and-projects/lesson-2-building-custom-robot-behaviors\n- chapter-10-case-studies-and-projects/lesson-3-preparing-for-real-world-deployment\n- chapter-3-sensors-and-perception/lesson-1-types-of-sensors-in-humanoid-robots\n- chapter-3-sensors-and-perception/lesson-2-sensor-fusion-techniques\n- chapter-3-sensors-and-perception/lesson-3-computer-vision-for-robot-perception\n- chapter-4-actuators-and-control-systems/lesson-1-motor-control-fundamentals\n- chapter-4-actuators-and-control-systems/lesson-2-pid-controllers-and-tuning\n- chapter-4-actuators-and-control-systems/lesson-3-servo-systems-and-actuator-control\n- chapter-5-locomotion-and-balance/lesson-1-static-vs-dynamic-balance\n- chapter-5-locomotion-and-balance/lesson-2-zero-moment-point-theory\n- chapter-5-locomotion-and-balance/lesson-3-walking-gait-generation\n- chapter-6-ai-and-machine-learning-integration/lesson-1-classical-control-vs-ai-based-control\n- chapter-6-ai-and-machine-learning-integration/lesson-2-reinforcement-learning-for-robot-control\n- chapter-6-ai-and-machine-learning-integration/lesson-3-neural-networks-for-motion-planning\n- chapter-7-human-robot-interaction/lesson-1-natural-language-processing-for-robots\n- chapter-7-human-robot-interaction/lesson-2-gesture-recognition-and-response\n- chapter-7-human-robot-interaction/lesson-3-social-robotics-principles\n- chapter-8-ros-integration/lesson-1-ros-architecture-and-nodes\n- chapter-8-ros-integration/lesson-2-message-passing-and-services\n- chapter-8-ros-integration/lesson-3-ros-packages-for-humanoid-robots\n- chapter-9-simulation-and-development-environments/lesson-1-gazebo-simulation-environment\n- chapter-9-simulation-and-development-environments/lesson-2-vrep-coppeliasim-basics\n- chapter-9-simulation-and-development-environments/lesson-3-creating-custom-simulation-worlds\n\nAvailable document ids are:\n- chapter-1-introduction-to-physical-ai/lesson-1-defining-physical-ai-theory-and-applications\n- chapter-1-introduction-to-physical-ai/lesson-2-historical-overview-of-humanoid-robotics\n- chapter-1-introduction-to-physical-ai/lesson-3-components-of-a-humanoid-robot-hardware-and-software\n- chapter-2-fundamentals-of-robot-kinematics/lesson-1-forward-and-inverse-kinematics\n- chapter-2-fundamentals-of-robot-kinematics/lesson-2-coordinate-systems-and-transformations\n- chapter-2-fundamentals-of-robot-kinematics/lesson-3-dh-parameters-for-robot-modeling\n- intro\n- lesson-template\n- tutorial-basics/congratulations\n- tutorial-basics/create-a-blog-post\n- tutorial-basics/create-a-document\n- tutorial-basics/create-a-page\n- tutorial-basics/deploy-your-site\n- tutorial-basics/markdown-features\n- tutorial-extras/manage-docs-versions\n- tutorial-extras/translate-your-site\n\n    at Object.checkSidebarsDocIds (D:\\Hackathon Book\\001-book-structure-spec\\node_modules\\@docusaurus\\plugin-content-docs\\lib\\sidebars\\utils.js:245:19)\n    at doLoadVersion (D:\\Hackathon Book\\001-book-structure-spec\\node_modules\\@docusaurus\\plugin-content-docs\\lib\\versions\\loadVersion.js:102:19)\n    at async loadVersion (D:\\Hackathon Book\\001-book-structure-spec\\node_modules\\@docusaurus\\plugin-content-docs\\lib\\versions\\loadVersion.js:119:16)\n    at async Promise.all (index 0)\n    at async Object.loadContent (D:\\Hackathon Book\\001-book-structure-spec\\node_modules\\@docusaurus\\plugin-content-docs\\lib\\index.js:152:33)\n    at async D:\\Hackathon Book\\001-book-structure-spec\\node_modules\\@docusaurus\\core\\lib\\server\\plugins\\plugins.js:40:23\n    at async Promise.all (index 1)\n    at async D:\\Hackathon Book\\001-book-structure-spec\\node_modules\\@docusaurus\\core\\lib\\server\\plugins\\plugins.js:146:25\n    at async loadSite (D:\\Hackathon Book\\001-book-structure-spec\\node_modules\\@docusaurus\\core\\lib\\server\\site.js:155:45)\n    at async createReloadableSite (D:\\Hackathon Book\\001-book-structure-spec\\node_modules\\@docusaurus\\core\\lib\\commands\\start\\utils.js:62:16)\n    at async doStart (D:\\Hackathon Book\\001-book-structure-spec\\node_modules\\@docusaurus\\core\\lib\\commands\\start\\start.js:22:28)\n    at async Promise.all (index 0)\n    at async runCLI (D:\\Hackathon Book\\001-book-structure-spec\\node_modules\\@docusaurus\\core\\lib\\commands\\cli.js:56:5)\n    at async file:///D:/Hackathon%20Book/001-book-structure-spec/node_modules/@docusaurus/core/bin/docusaurus.mjs:44:3\n[INFO] Docusaurus version: 3.9.2\nNode version: v22.15.0   solve this error",
+    "timestamp": "2025-12-17T16:43:23.627Z"
+  }
+]

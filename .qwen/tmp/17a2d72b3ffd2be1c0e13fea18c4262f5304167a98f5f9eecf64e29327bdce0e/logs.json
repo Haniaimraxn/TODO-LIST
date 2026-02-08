@@ -1,0 +1,51 @@
+[
+  {
+    "sessionId": "ae23cc34-0452-4560-89bb-63dc40872f8c",
+    "messageId": 0,
+    "type": "user",
+    "message": "hello",
+    "timestamp": "2025-12-15T17:36:25.178Z"
+  },
+  {
+    "sessionId": "5c7e5311-5ac2-4e52-a4c0-d938f6e98268",
+    "messageId": 0,
+    "type": "user",
+    "message": "hello",
+    "timestamp": "2025-12-17T11:36:40.980Z"
+  },
+  {
+    "sessionId": "5c7e5311-5ac2-4e52-a4c0-d938f6e98268",
+    "messageId": 1,
+    "type": "user",
+    "message": "The future of AI extends beyond digital spaces into the physical world. This capstone quarter introduces Physical AI—AI systems that function in reality and comprehend physical laws. Students learn to design, simulate, and deploy humanoid robots capable of natural human interactions using ROS 2, Gazebo, and NVIDIA Isaac.\nModule 1: The Robotic Nervous System (ROS 2)\nFocus: Middleware for robot control.\nROS 2 Nodes, Topics, and Services.\nBridging Python Agents to ROS controllers using rclpy.\nUnderstanding URDF (Unified Robot Description Format) for humanoids.\nMake a Book and Title is Physical AI and Humanoid Robotics",
+    "timestamp": "2025-12-17T12:02:51.528Z"
+  },
+  {
+    "sessionId": "5c7e5311-5ac2-4e52-a4c0-d938f6e98268",
+    "messageId": 2,
+    "type": "user",
+    "message": "Module 2: The Digital Twin (Gazebo & Unity)\nFocus: Physics simulation and environment building.\nSimulating physics, gravity, and collisions in Gazebo.\nHigh-fidelity rendering and human-robot interaction in Unity.\nSimulating sensors: LiDAR, Depth Cameras, and IMUs.",
+    "timestamp": "2025-12-17T12:07:27.442Z"
+  },
+  {
+    "sessionId": "5c7e5311-5ac2-4e52-a4c0-d938f6e98268",
+    "messageId": 3,
+    "type": "user",
+    "message": "Module 3: The AI-Robot Brain (NVIDIA Isaac™)\nFocus: Advanced perception and training.\nNVIDIA Isaac Sim: Photorealistic simulation and synthetic data generation.\nIsaac ROS: Hardware-accelerated VSLAM (Visual SLAM) and navigation.\nNav2: Path planning for bipedal humanoid movement",
+    "timestamp": "2025-12-17T12:16:29.709Z"
+  },
+  {
+    "sessionId": "5c7e5311-5ac2-4e52-a4c0-d938f6e98268",
+    "messageId": 4,
+    "type": "user",
+    "message": "Module 4: Vision-Language-Action (VLA)\nFocus: The convergence of LLMs and Robotics.\nVoice-to-Action: Using OpenAI Whisper for voice commands.\nCognitive Planning: Using LLMs to translate natural language (\"Clean the room\") into a sequence of ROS 2 actions.\nCapstone Project: The Autonomous Humanoid. A final project where a simulated robot receives a voice command, plans a path, navigates obstacles, identifies an object using computer vision, and manipulates it.",
+    "timestamp": "2025-12-17T12:29:12.700Z"
+  },
+  {
+    "sessionId": "5c7e5311-5ac2-4e52-a4c0-d938f6e98268",
+    "messageId": 5,
+    "type": "user",
+    "message": "You are running Qwen Code in your home directory. It is recommended to run in a project-specific directory. resolve this step by step",
+    "timestamp": "2025-12-17T13:03:50.384Z"
+  }
+]

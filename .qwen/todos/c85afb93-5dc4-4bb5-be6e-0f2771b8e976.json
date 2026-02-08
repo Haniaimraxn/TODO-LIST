@@ -1,0 +1,30 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "content": "Check if constitution template exists at .specify/memory/constitution.md",
+      "status": "completed"
+    },
+    {
+      "id": "2",
+      "content": "Create or update constitution with specified requirements",
+      "status": "completed"
+    },
+    {
+      "id": "3",
+      "content": "Add Vision, Core Principles, Success Criteria, Constraints, Stakeholders, and Brand Voice sections",
+      "status": "completed"
+    },
+    {
+      "id": "4",
+      "content": "Ensure target audience, tech stack, and focus are properly incorporated",
+      "status": "completed"
+    },
+    {
+      "id": "5",
+      "content": "Validate and finalize the constitution document",
+      "status": "completed"
+    }
+  ],
+  "sessionId": "c85afb93-5dc4-4bb5-be6e-0f2771b8e976"
+}

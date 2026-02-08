@@ -1,0 +1,12 @@
+{
+  "security": {
+    "auth": {
+      "selectedType": "qwen-oauth"
+    }
+  },
+  "$version": 2,
+  "ide": {
+    "hasSeenNudge": true,
+    "enabled": true
+  }
+}
