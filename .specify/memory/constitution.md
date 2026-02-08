@@ -1,55 +1,51 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- SYNC IMPACT REPORT
+Version change: N/A (new constitution) → 1.0.0
+Modified principles: None (new constitution)
+Added sections: All sections (new constitution)
+Removed sections: None
+Templates requiring updates: 
+  - ✅ .specify/templates/plan-template.md - Updated to reflect new principles
+  - ✅ .specify/templates/spec-template.md - Updated to reflect new principles  
+  - ✅ .specify/templates/tasks-template.md - Updated to reflect new principles
+Follow-up TODOs: None
+-->
+# Todo In-Memory Python Console App Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Minimalist Design
+Every feature must serve a clear user need; implementations should be as simple as possible while maintaining functionality; unnecessary complexity is forbidden.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. CLI-First Interface
+All functionality must be accessible through a command-line interface; text-based input/output protocols ensure maximum compatibility and debuggability; support both human-readable and structured (JSON) output formats.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Test-First Development (NON-NEGOTIABLE)
+All features must have tests written before implementation; TDD cycle strictly enforced: write tests → ensure they fail → implement feature → make tests pass → refactor as needed.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Memory-Only Storage
+Data persistence limited to in-memory structures (lists, dictionaries); no external databases or file storage; focus on core functionality without persistence complexity.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Clean Code Standards
+All code must comply with PEP8 standards; modular architecture with clear separation of concerns; comprehensive error handling for all user inputs and operations.
 
-### [PRINCIPLE_6_NAME]
+### VI. Dependency Restraint
+No external dependencies beyond Python 3.13+ standard library; all functionality implemented using built-in modules only; maintain maximum portability and simplicity.
 
+## Additional Constraints
 
-[PRINCIPLE__DESCRIPTION]
+Technology Stack: Python 3.13+, uv environment manager, Qwen AI assistance, Spec Kit Plus toolkit
+Project Structure: src/main.py (CLI entry point), src/todo_manager.py (core logic)
+Storage: In-memory list of dictionaries for task management
+Features: Add/view/update/delete/mark_complete tasks with ID, title, description, and status
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+## Development Workflow
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
-
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
-
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+Code Review: All changes must pass automated checks for PEP8 compliance and test coverage
+Quality Gates: All tests must pass, code must be clean and well-documented
+Testing: Unit tests for all core functions, integration tests for CLI interactions
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This constitution governs all development practices for the Todo In-Memory Python Console App; all PRs and reviews must verify compliance with these principles; amendments require documentation and approval following the established versioning policy.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2026-02-08 | **Last Amended**: 2026-02-08
